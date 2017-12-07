@@ -55,7 +55,7 @@ The driver module should now be loaded automatically.
 
 
 # install necessary software
-sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install bc git
 
 # download raspbian kernel sources, takes some minutes
